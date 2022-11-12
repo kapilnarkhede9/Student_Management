@@ -9,4 +9,5 @@ import com.example.demo.modules.Employee;
 public interface EmployeeServices extends CrudRepository<Employee, Integer> {
 List<Employee> findByName(String name);
 List<Employee> findByEmail(String email);
+
 }
